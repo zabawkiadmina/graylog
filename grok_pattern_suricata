@@ -1,0 +1,1 @@
+	%{WORD:source}\[%{NUMBER:UNWANTED}\]: \[%{NUMBER:UNWANTED}:%{NUMBER:UNWANTED}:%{NUMBER:UNWANTED}\] %{DATA:description} \[Classification:%{DATA:classification}\] \[Priority: %{NUMBER:priority}\] \{%{WORD:protocol}\} %{IP:srcip}:%{NUMBER:srcport} \-\> %{IP:dstip}:%{NUMBER:dstport}
