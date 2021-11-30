@@ -1,0 +1,12 @@
+rule "suricata"
+when
+    has_field("message")
+then
+
+    let message_field = to_string($message.message);
+    
+    let suricata1 = grok("%{suricata1}", to_string($message.message), true);
+    
+    set_fields(suricata1);
+    
+end
