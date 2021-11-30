@@ -12,5 +12,9 @@ Remember to setup proper cert and key file here:<BR>
 
   
   <B>GROK PATTERNS for Suricata</B><BR>
-  Add data from grok_patterns_suricatra to your graylog config in GROK PATTERNS<BR>
+  Add data from grok_patterns_suricata to your graylog config in GROK PATTERNS<BR>
   <BR>
+  Add Pipline with rule data from file pipline_rule_suricata<br>
+    
+    
+  
