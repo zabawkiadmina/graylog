@@ -23,7 +23,7 @@ server {
 
 server
 {
-    listen      444 ssl http2;
+    listen      443 ssl http2;
     server_name graylog.example.com;
   ssl_certificate /etc/ssl/certs/graylog/graylog.crt;
   ssl_certificate_key /etc/ssl/certs/graylog/graylog.key;
